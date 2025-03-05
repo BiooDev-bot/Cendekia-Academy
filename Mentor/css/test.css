@@ -1,0 +1,47 @@
+.main-sidebar {
+  height: 100vh !important; /* Buat sidebar penuh */
+}
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-table th {
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+}
+
+.custom-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
+}
+
+.custom-table i {
+  color: #00c3ff;
+  font-size: 1.2em;
+}
+
+.btn-primary {
+  background: #08bc64 !important;
+  border: none !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: lightgreen !important;
+  transform: scale(1.05);
+}
